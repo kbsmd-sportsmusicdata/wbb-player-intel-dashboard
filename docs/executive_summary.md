@@ -6,9 +6,9 @@ This repo packages a publishable WBB player-intel dashboard that combines player
 
 ## Intended Audience
 
-- sports analytics portfolio reviewers
-- coaching staffs and scouting groups
-- front office and roster-construction decision-makers
+- Sports analytics portfolio reviewers
+- Coaching staffs and scouting groups
+- Front office and roster-construction decision-makers
 
 ## Key Questions
 
@@ -30,10 +30,10 @@ This project turns a strong scouting dashboard into a portable review asset. For
 
 ## Recommended Use Cases
 
-- player evaluation
-- role-based comparison
-- team roster-mix review
-- coach-facing scouting prep
+- Player evaluation
+- Role-based comparison
+- Team roster-mix review
+- Coach-facing scouting prep
 
 ## Limitations
 
