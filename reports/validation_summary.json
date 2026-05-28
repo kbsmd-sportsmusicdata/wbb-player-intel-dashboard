@@ -1,0 +1,45 @@
+{
+  "project_title": "WBB Player Intel Dashboard",
+  "run_at": "2026-05-28T13:57:54.130166+00:00",
+  "status": "pass",
+  "files": [
+    {
+      "path": "data/processed/dashboard_slim_k6_enriched.json",
+      "required": true,
+      "description": "Exact-source player-intel layer embedded in the dashboard.",
+      "status": "validated_json",
+      "file_type": "json",
+      "size_bytes": 1703532,
+      "top_level_type": "dict",
+      "top_level_keys": [
+        "p",
+        "cl",
+        "pca",
+        "sl"
+      ],
+      "record_count": 393
+    },
+    {
+      "path": "data/processed/sample_comp_narratives.json",
+      "required": true,
+      "description": "Exact-source comp narrative library used in the scouting context layer.",
+      "status": "validated_json",
+      "file_type": "json",
+      "size_bytes": 51034,
+      "top_level_type": "list",
+      "record_count": 29
+    },
+    {
+      "path": "data/processed/coaching_implication_templates.json",
+      "required": true,
+      "description": "Exact-source coaching template rules used in the coach-facing interpretation layer.",
+      "status": "validated_json",
+      "file_type": "json",
+      "size_bytes": 32311,
+      "top_level_type": "list",
+      "record_count": 22
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}

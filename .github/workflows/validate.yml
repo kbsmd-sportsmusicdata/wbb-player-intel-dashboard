@@ -1,0 +1,36 @@
+name: Validate Project
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate docs
+        run: python scripts/generate_docs.py
+
+      - name: Generate README
+        run: python scripts/generate_readme.py
+
+      - name: Validate data
+        run: python scripts/validate_data.py
+
+      - name: Publish readiness check
+        run: python scripts/publish_check.py
