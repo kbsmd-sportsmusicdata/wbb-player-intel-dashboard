@@ -18,7 +18,7 @@ This repo packages a publishable WBB player-intel dashboard that combines player
 
 ## Live Project
 
-- HTML Notebook: Pending GitHub Pages deployment
+- HTML Notebook: https://kbsmd-sportsmusicdata.github.io/wbb-player-intel-dashboard/
 - Portfolio Page: Not published yet
 - Tableau Public: Not used for this project
 

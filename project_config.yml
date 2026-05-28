@@ -12,8 +12,8 @@ project:
   last_updated: "2026-05-28"
 
 links:
-  github_repo: "Pending repo creation"
-  github_pages: "Pending GitHub Pages deployment"
+  github_repo: "https://github.com/kbsmd-sportsmusicdata/wbb-player-intel-dashboard"
+  github_pages: "https://kbsmd-sportsmusicdata.github.io/wbb-player-intel-dashboard/"
   portfolio_page: "Not published yet"
   tableau_public: "Not used for this project"
   notion_page: ""

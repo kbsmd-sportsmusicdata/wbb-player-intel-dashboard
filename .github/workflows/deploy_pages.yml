@@ -27,11 +27,14 @@ jobs:
 
       - name: Set up Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Prepare site folder
         run: |
           mkdir -p site
           cp notebooks/index.html site/index.html
+          touch site/.nojekyll
           if [ -d assets ]; then cp -r assets site/assets; fi
           if [ -d docs ]; then cp -r docs site/docs; fi
 
