@@ -4,6 +4,12 @@
 
 This project packages a static WBB player-intel dashboard that brings together player profiles, role-based comps, percentile indicators, team roster mix, and coach-facing prompts in one portable HTML artifact. The goal is to make player evaluation faster to scan, easier to compare, and more useful for basketball operations, scouting, and player-development review.
 
+## Preview
+
+<p align="center">
+  <img src="assets/player_intel_dashboard_screenshot.png" alt="WBB Player Intel Dashboard preview showing player profiles, role comps, percentile indicators, team mix, and coach-facing scouting context" width="850">
+</p>
+
 ## How To Use This Repo
 
 1. Start with `notebooks/index.html` or the live dashboard link to explore the full player-intel experience.
@@ -64,7 +70,7 @@ For a lean basketball operation, this type of tool can support player evaluation
 
 - Saiem Gilani and Geoff Hutchinson. wehoop: The SportsDataverse's R Package for Women's Basketball Data. Retrieved from https://doi.org/10.32614/CRAN.package.wehoop
 
-The static dashboard also uses runtime presentation dependencies, including Google Fonts, Chart.js CDN assets, and ESPN-hosted logos or headshots.
+- The static dashboard also uses runtime presentation dependencies, including Google Fonts, Chart.js CDN assets, and ESPN-hosted logos or headshots.
 
 ## Methodology Summary
 
