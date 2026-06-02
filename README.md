@@ -1,8 +1,8 @@
 # WBB Player Intelligence Dashboard
 
-**A 2025-26 women’s college basketball player intel dashboard for role comps, player profiles, team mix, and coach-facing scouting context.**
+**An interactive 2025-26 women’s college basketball player intel dashboard for role comps, player profiles, team mix, & coach facing scouting context.**
 
-This project packages an interactive WBB player intelligence dashboard that combines player profiles, role-based comps, percentile indicators (by position), team roster mix, and coach-facing prompts into a singular dashboard deliverable. The goal is to make player evaluation faster to scan, easier to compare, and more useful for basketball operations, scouting, and player development review. 
+This project packages an interactive WBB player intelligence dashboard that combines player profiles, role-based comps, position percentile indicators, team roster mix, and coach facing prompts into a singular dashboard deliverable. The goal is to make player evaluation faster to scan, easier to compare, and more useful for basketball operations, scouting, and player development review. 
 
 ## Preview
 
@@ -14,7 +14,7 @@ This project packages an interactive WBB player intelligence dashboard that comb
 
 1. Start with `notebooks/index.html` or the live dashboard link to explore the full player intel experience.
 
-2. Use the evidence files in `data/processed/` to inspect the player, comp, role, and coaching layers behind the published artifact.
+2. Use the evidence files in `data/processed/` to inspect the player, comp, role, and coaching layers behind the published dashboard.
 
 3. Review the supporting docs for methodology, validation, and data definitions.
 
@@ -31,22 +31,22 @@ python scripts/generate_readme.py
 
 ## Why This Project Matters
 
-Player intel work is most useful when it connects the numbers to basketball context. This dashboard turns a player dataset into a scouting-style review surface: role labels, percentile signals, player comps, team mix, and coach-facing prompts are presented together so a reviewer can quickly understand how a player profiles and where they may fit.
+Player intel work is most useful when it connects the numbers to basketball context. This dashboard turns a player dataset into a scouting-style review surface: role labels, percentile signals, player comps, team mix, and coach facing prompts are presented together so a reviewer can quickly understand how a player profiles and where they may fit.
 
 For a lean basketball operation, this type of tool can support player evaluation, opponent prep, tryout review, roster tracking, and player development conversations without requiring a full internal analytics department.
 
 ## Key Questions
 
-- Which 2025-26 players share similar role-based profiles?
-- How do percentile, role, and derived-metric layers translate into player intel?
-- Which players stand out by role, team context, or comparable-player profile?
-- How can coach-facing prompts support faster scouting and development review?
+- Which 2025-26 players share similar role based profiles?
+- How do percentile, role, and derived metric layers translate into player intel?
+- Which players stand out by role, team context, or comparable player profile?
+- How can coach facing prompts support faster scouting and development review?
 
 ## Audience
 
 - Player development and coaching staff
 - Basketball operations and scouting reviewers
-- Front office and roster-construction decision-makers
+- Front office and roster construction decision makers
 - Sports analytics portfolio reviewers
 
 ## Project Outputs
@@ -60,11 +60,11 @@ For a lean basketball operation, this type of tool can support player evaluation
 
 ## Supporting Evidence Tables
 
-- `data/processed/dashboard_slim_k6_enriched.json`: exact-source player-intel layer mirrored into the published HTML, including player records, role taxonomy, percentiles, comps, and derived metrics.
+- `data/processed/dashboard_slim_k6_enriched.json`: exact source player intel layer mirrored into the published HTML, including player records, role taxonomy, percentiles, comps, and derived metrics.
 
 - `data/processed/sample_comp_narratives.json`: narrative comparison rules used for player comps, matchup notes, and structured scouting summaries.
 
-- `data/processed/coaching_implication_templates.json`: role-usage coaching templates used in the coach-facing interpretation layer.
+- `data/processed/coaching_implication_templates.json`: role usage coaching templates used in the coach facing interpretation layer.
 
 ## Data Sources
 
@@ -110,4 +110,4 @@ python scripts/generate_readme.py
 
 - Add a one-page player intel brief for scouting or player development review.
 - Expand the comp layer with clearer role/family explanations.
-- Add a lightweight user guide for coaches or front-office reviewers.
+- Add a lightweight user guide for coaches or front office reviewers.
